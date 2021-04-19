@@ -1,0 +1,42 @@
+body {
+  background-color: LightGrey;
+}
+
+h1 {
+  color: black;
+  margin-left: 20px;
+  text-align: center;
+  text-shadow: 4px 4px 8px grey;
+  font-family: "Monaco", "Courier New", monospace;
+
+
+}
+
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.icons {
+    width: 15%;
+
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+/*Assists in adjusting the screen*/
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
